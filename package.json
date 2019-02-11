@@ -1,0 +1,32 @@
+{
+  "name": "mpe-app-backend",
+  "version": "1.0.0",
+  "description": "MPE App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon bin/server.js",
+    "start": "node bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermedelemos/mpe-app-backend.git"
+  },
+  "keywords": [
+    "MPE",
+    "App",
+    "backend"
+  ],
+  "author": "Guilherme de Lemos",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/guilhermedelemos/mpe-app-backend/issues"
+  },
+  "homepage": "https://github.com/guilhermedelemos/mpe-app-backend#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
